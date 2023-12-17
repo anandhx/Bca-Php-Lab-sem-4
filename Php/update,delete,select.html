@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update, Select, Delete Form</title>
+</head>
+<body>
+    <h1>Update, Select, Delete Form</h1>
+
+    <form method="get" action="update.php">
+        <label for="username">Username:</label>
+        <input type="text" name="username" id="username" required><br><br>
+
+        <label for="newPassword">New Password:</label>
+        <input type="password" name="newPassword" id="newPassword" required><br><br>
+
+        <input type="submit" value="Update">
+    </form>
+
+    <br>
+
+    <form method="get" action="select.php">
+        <label for="usernameSelect">Username:</label>
+        <input type="text" name="usernameSelect" id="usernameSelect" required><br><br>
+
+        <input type="submit" value="Select">
+    </form>
+
+    <br>
+
+    <form method="get" action="delete.php">
+        <label for="usernameDelete">Username:</label>
+        <input type="text" name="usernameDelete" id="usernameDelete" required><br><br>
+
+        <input type="submit" value="Delete">
+    </form>
+</body>
+</html>
